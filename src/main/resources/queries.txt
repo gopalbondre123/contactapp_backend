@@ -1,0 +1,8 @@
+create table EMPLOYEE(EMPID long identity primary key,empname varchar(50),emplastname varchar(50),empemail varchar(50),empmobnumber bigint,empsal float, empdept varchar(50)) ;
+
+
+insert into EMPLOYEE values ('gopal','bondre','gopalbondre92@gmail.com',9309100883,750000,'dev');
+//id will be created automaticaly by identity db generator  ( no need to pass manually   just provide @GeneratedValue to Entity Model class )
+
+
+http://localhost:8080/h2-console/login.jsp
